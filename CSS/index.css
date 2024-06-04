@@ -78,3 +78,8 @@ table {
     font-weight: 900; 
     content: "\f55a"; /* Código Unicode do ícone delete-left */
 }
+
+#clear{
+    background-color: rgb(255, 55, 0);
+
+}
