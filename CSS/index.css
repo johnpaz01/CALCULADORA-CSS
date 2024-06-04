@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url('../IMG/space.jpg');
+    background: url('https://johnpaz01.github.io/CALCULADORA-CSS/IMG/space.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
