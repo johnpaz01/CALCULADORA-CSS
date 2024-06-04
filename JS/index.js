@@ -21,19 +21,12 @@ function back() {
 function calcular() {
     var resultado = document.getElementById('resultado').innerHTML;
     if (resultado) {
-        try {
-            var calculado = eval(resultado);
-            if (calculado === undefined) {
-                clean();
-                isResultUndefined = true;
-            } else {
-                document.getElementById('resultado').innerHTML = calculado;
-                isResultUndefined = false;
-            }
-        } catch (e) {
-            clean();
-            isResultUndefined = true;
-        }
+        document.getElementById('resultado').innerHTML = eval(resultado);
+    }
+    if(resultado == "undefined"){
+        document.addEventListener('keydown', function(event) {
+        clean();
+        });
     }
 }
 
