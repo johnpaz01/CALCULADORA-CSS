@@ -72,3 +72,9 @@ table {
 .btn:hover {
     background-color: gray;
 }
+
+.fa-delete-left {
+    font-family: "Font Awesome 6 Free"; 
+    font-weight: 900; 
+    content: "\f55a"; /* Código Unicode do ícone delete-left */
+}
